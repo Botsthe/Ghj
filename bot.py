@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", ""))
 
 API_HASH = os.environ.get("API_HASH", "")
 
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "http://44.211.118.122")
 
 
 bot = Client(
